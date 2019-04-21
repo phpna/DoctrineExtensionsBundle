@@ -1,5 +1,5 @@
 {
-    "name": "stof/doctrine-extensions-bundle",
+    "name": "phpna/doctrine-extensions-bundle",
     "type": "symfony-bundle",
     "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
     "keywords": ["tree", "behaviors", "doctrine2", "extensions", "gedmo", "sluggable","loggable", "translatable", "nestedset", "sortable", "timestampable"],
@@ -7,14 +7,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Christophe Coevoet",
-            "email": "stof@notk.org"
+            "name": "lichnow",
+            "email": "lichnow@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.7|~3.2|~4.0",
-        "gedmo/doctrine-extensions": "^2.3.4"
+        "gedmo/doctrine-extensions": "dev-master"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^4.0",
